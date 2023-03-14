@@ -1,0 +1,126 @@
+<?xml version="1.0"   encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_content"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:top_padding="10vp"
+        ohos:bottom_padding="10vp"
+        ohos:left_padding="10vp"
+        ohos:right_padding="10vp"
+        ohos:background_element="#FFFFFF"
+        ohos:orientation="vertical">
+        <Text
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text="请选择对该条目的操作"
+            ohos:layout_alignment="center"
+            ohos:text_alignment="center"
+            ohos:text_color="#000000"
+            ohos:text_size="20fp"/>
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:top_margin="10vp"
+            ohos:orientation="horizontal">
+            <Component
+                ohos:width="10vp"
+                ohos:height="match_parent"/>
+            <Button
+                ohos:id="$+id:delete"
+                ohos:width="0vp"
+                ohos:weight = "5"
+                ohos:height="match_content"
+                ohos:text="删除条目"
+                ohos:text_size="20fp"
+                ohos:text_color="#000000"
+                ohos:background_element="#FF29BF29"
+                />
+            <Component
+                ohos:width="0vp"
+                ohos:weight = "0.5"
+                ohos:height="match_parent"/>
+            <Button
+                ohos:id="$+id:cancel"
+                ohos:width="0vp"
+                ohos:weight = "5"
+                ohos:height="match_content"
+                ohos:text="取消标记"
+                ohos:text_size="20fp"
+                ohos:text_color="#000000"
+                ohos:background_element="#AAAAFF"
+                />
+            <Component
+                ohos:width="0vp"
+                ohos:weight = "0.5"
+                ohos:height="match_parent"/>
+            <Button
+                ohos:id="$+id:nodo"
+                ohos:width="0vp"
+                ohos:weight = "5"
+                ohos:height="match_content"
+                ohos:text="取消操作"
+                ohos:text_size="20fp"
+                ohos:text_color="#000000"
+                ohos:background_element="#FFFF00"
+                />
+            <Component
+                ohos:width="10vp"
+                ohos:height="match_parent"/>
+        </DirectionalLayout>
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:top_margin="10vp"
+            ohos:orientation="horizontal">
+            <Component
+                ohos:width="10vp"
+                ohos:height="match_parent"/>
+            <Button
+                ohos:id="$+id:study"
+                ohos:width="0vp"
+                ohos:weight = "5"
+                ohos:height="match_content"
+                ohos:text="标记学习"
+                ohos:text_size="20fp"
+                ohos:text_color="#000000"
+                ohos:background_element="#FF29BF29"
+                />
+            <Component
+                ohos:width="0vp"
+                ohos:weight = "0.5"
+                ohos:height="match_parent"/>
+            <Button
+                ohos:id="$+id:life"
+                ohos:width="0vp"
+                ohos:weight = "5"
+                ohos:height="match_content"
+                ohos:text="标记生活"
+                ohos:text_size="20fp"
+                ohos:text_color="#000000"
+                ohos:background_element="#AAAAFF"
+                />
+            <Component
+                ohos:width="0vp"
+                ohos:weight = "0.5"
+                ohos:height="match_parent"/>
+            <Button
+                ohos:id="$+id:work"
+                ohos:width="0vp"
+                ohos:weight = "5"
+                ohos:height="match_content"
+                ohos:text="标记工作"
+                ohos:text_size="20fp"
+                ohos:text_color="#000000"
+                ohos:background_element="#FFFF00"
+                />
+            <Component
+                ohos:width="10vp"
+                ohos:height="match_parent"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>

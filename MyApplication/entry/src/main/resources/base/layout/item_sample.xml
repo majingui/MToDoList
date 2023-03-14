@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="50vp"
+    ohos:width="match_parent"
+    ohos:bottom_margin="1vp"
+    ohos:padding="1vp"
+    ohos:background_element="$graphic:background_item"
+    ohos:orientation="horizontal">
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_content">
+    <Text
+        ohos:left_margin="16vp"
+        ohos:id="$+id:title"
+        ohos:text_size="20vp"
+        ohos:height="match_content"
+        ohos:text_color="white"
+        ohos:width="match_parent"/>
+    <Text
+        ohos:left_margin="16vp"
+        ohos:id="$+id:content"
+        ohos:top_margin="1vp"
+        ohos:text_size="14vp"
+        ohos:text_color="white"
+        ohos:height="match_content"
+        ohos:width="match_parent"/>
+    </DirectionalLayout>
+    <Text
+        ohos:id="$+id:finish"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_color="#F01EC6DD"
+        ohos:text="未完成"
+        ohos:text_size="25fp"
+        ohos:top_margin="4vp"
+        ohos:right_margin="5vp"
+        ohos:left_of="$id:tag">
+    </Text>
+    <Button
+        ohos:id="$+id:tag"
+        ohos:height="40fp"
+        ohos:top_margin="4vp"
+        ohos:background_element="$media:r"
+        ohos:align_parent_right="true"
+        ohos:right_margin="5vp"
+        ohos:width="40fp">
+
+    </Button>
+</DependentLayout>
